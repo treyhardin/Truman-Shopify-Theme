@@ -1,9 +1,9 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
-    "theme_version": "11.0.0",
-    "theme_author": "Shopify",
+    "theme_name": "Truman",
+    "theme_version": "0.0.1",
+    "theme_author": "Truman Creative",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
   },
@@ -30,6 +30,17 @@
         "id": "favicon",
         "label": "t:settings_schema.logo.settings.favicon.label",
         "info": "t:settings_schema.logo.settings.favicon.info"
+      }
+    ]
+  },
+  {
+    "name": "Ultimate Type",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading-font-url",
+        "label": "Heading Font URL",
+        "info": "URL where your font file is hosted. Can be from your Assets folder, or from a CDN like Adobe Fonts."
       }
     ]
   },
